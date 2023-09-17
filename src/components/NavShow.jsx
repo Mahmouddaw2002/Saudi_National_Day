@@ -52,7 +52,7 @@ const NavShow = (props) => {
               onClick={() => handleLoading(true)}
               className="p-2 cursor-pointer hover:font-bold flex  justify-center items-center  hover:text-[#4CB36C]  transition-all ease-in-out"
             >
-              <Link target="_blank" to="">
+              <Link target="_blank" to="https://nanoitcompany.com">
                 قم بزيارة موقعنا
               </Link>
             </li>
@@ -61,7 +61,7 @@ const NavShow = (props) => {
               className="p-2 hover:font-bold flex  justify-center items-center cursor-pointer hover:text-[#4CB36C]  transition-all ease-in-out"
             >
               <Link
-                to=""
+                to="mailto:Info@nanoitcompany.com"
                 target="_blank"
                 className=" cursor-pointer py-3 px-9 rounded-md border-[1px] border-solid background  border-[#4CB36C] text-white "
               >

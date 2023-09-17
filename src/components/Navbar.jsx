@@ -56,9 +56,9 @@ const Navbar = () => {
               <a href="#contactUs">تواصل معنا</a>
             </li>
             <li className="cursor-pointer hover:text-[#4CB36C] hover:border-b-2  hover:border-b-[#4CB36C] transition-all ease-in-out">
-              <a href="" target="_blank">
+              <Link to="https://nanoitcompany.com" target="_blank">
                 قم بزيارة موقعنا
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -66,7 +66,7 @@ const Navbar = () => {
         <div className="hidden lg:block hover:animate-bounce ">
           <Link
             className="cursor-pointer py-[10px] px-[49px] background border border-[#4CB36C] text-white rounded-md text-center"
-            to=""
+            to="mailto:Info@nanoitcompany.com"
             target="_blank"
           >
             تواصل معنا
